@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Antique Marble World</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    
    
 </head>
 <body>
@@ -18,6 +21,7 @@
         <a href="#aboutus">About Us</a>
         <a href="#product">Product</a>
         <a href="#contact">contact</a>
+        <a href="#review">Reviews</a>
 
         </nav>
         <div class="icons">
@@ -32,44 +36,694 @@
                 </form>
                 <form action="" class="contact">
                     <h3>Chat with Us</h3>
-                    <input type="number" placeholder="Contact Number" class="box">
-                    <input type="text" placeholder="Comments..." class="box">
-                    <input type="submit" placeholder="submit" class="btn">
+                    <input type="number" placeholder="Contact Number"  id="number" class="box">
+                    <input type="text" placeholder="Comments..." id="comment" class="box">
+                    <input type="submit" placeholder="submit" class="btn" onclick="gotowhatsapp()" value="Submit">
                 </form>
     </header>
     <section class="home" id="home">
         <div class="content">
-            <h1>Precious,<h1>
-                <h1>Priceless<h1>
+            <h3>Precious,<h3>
+                <h3>Priceless<h3>
                     <h2>Granite/Marble/Stone</h2>
-                    <a href="#" class="btn">Show More</a>
+                    <a href="#showall" class="btn">Show More</a>
             </div>
 
     </section>
     <section class="product" id="product">
-        <h1 class="heading">Our <span>Product</span></h1>
+        <h1 class="heading">Product <span>Categories</span></h1>
         <div class="box-container">
             <div class="box">
                 <img src="images/persian.png">
                 <h3>Granite</h3>
                 <p>Black Furnish</p>
-                <a href="#" class="btn">read more</a>
+                <a href="product.html#granite" class="btn">Show more</a>
             </div>
             <div class="box">
                 <img src="images/persian.png">
                 <h3>Granite</h3>
                 <p>Vivo</p>
-                <a href="#" class="btn">read more</a>
+                <a href="#" class="btn">Show more</a>
             </div>
             <div class="box">
                 <img src="images/persian.png">
                 <h3>Granite</h3>
                 <p>Urban</p>
-                <a href="#" class="btn">read more</a>
+                <a href="#showall" class="btn">Show more</a>
+            </div>
+        </div>
+        <br>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/persian.png">
+                <h3>Granite</h3>
+                <p>Black Furnish</p>
+                <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="box">
+                <img src="images/persian.png">
+                <h3>Granite</h3>
+                <p>Vivo</p>
+                <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="box">
+                <img src="images/persian.png">
+                <h3>Granite</h3>
+                <p>Urban</p>
+                <a href="#" class="btn">Show more</a>
             </div>
         </div>
         </section>
 
+<section class="allproduct" id="showall">
+    <h1 class="heading">Our <span>Products</span></h1>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+        </div>
+    </div>
+    <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/persian.png" alt="">
+                <h3>Persain</h3>
+            <p>Glossy 800*2400mm</p>
+            <div class="star">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+            <a href="#" class="btn">Show more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="review" id="review">
+    <h1 class="heading">Customer's <span>review</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="images/navona.png" alt="">
+                <p>Good quality and Price</p>
+                <h3>Harshita Kumari</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/navona.png" alt="">
+                <p>Good quality and Price</p>
+                <h3>Divya Agarwal</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/navona.png" alt="">
+                <p>Good quality and Price</p>
+                <h3>Saket Agarwal</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="images/navona.png" alt="">
+                <p>Good quality and Price</p>
+                <h3>Harshita Kumari</h3>
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="aboutus" id="aboutus">
+   
+    <h1 class="heading">About <Span>Us</Span></h1>
+        <h2>Antique Marble World is one of the best supplier and
+            exporter of marble, granite and other natural stones.
+            We provide all types of granite and marble stone. We
+            believe that opinions are necessary and thus offer
+            them too . We provide only the best quality stones to
+            our clients, and therefore, we are the first choice of
+            architects and designers.</h2>
+            <br>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fa fa-book"></i>
+                    <h3>Mission</h3>
+                    <hr>
+                   <p>Antique Marble World is one of the best supplier and</p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-globe"></i>
+                    <h3>Vision</h3>
+                    <hr>
+                   <p>Antique Marble World is one of the best supplier and</p>
+                </div>
+                <div class="box">
+                    <i class="fa fa-trophy"></i>
+                    <h3>Achievements</h3>
+                    <hr>
+                   <p>Antique Marble World is one of the best supplier and</p>
+                </div>
+            </div>
+
+
+</section>
+<section class="footer" id="contact">
+    <div class="box-container">
+        <div class="box">
+           
+            <h3><span>AMW</span> </h3>
+          
+            <div class="share">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+               <a href="#" class="fa fa-linkedin"></a>
+                
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+               <a href="#" class="fa fa-tumblr"></a>
+            </div>
+        </div>
+        <div class="box">
+            <h3>Contact Info </h3>
+            
+            <a href="#" class="links"><i class="fa fa-phone"></i>+919636757008</a>
+            <a href="#" class="links"><i class="fa fa-phone"></i>+919950204444</a>
+            <a href="#" class="links"><i class="fa fa-phone"></i>+917665526555</a>
+            <a href="#" class="links"><i class="fa fa-map-marker"></i>Kishangarh,Rajasthan</a>
+        </div>
+       
+        <div class="box">
+            <h3>Quick Links</h3>
+           
+            <a href="#" class="links"><i class="fa fa-arrows-h"></i>Home</a>
+            <a href="#" class="links"><i class="fa fa-arrows-h"></i>About Us</a>
+            <a href="#" class="links"><i class="fa fa-arrows-h"></i>Product</a>
+            <a href="#" class="links"><i class="fa fa-arrows-h"></i>Contact</a>
+            <a href="#" class="links"><i class="fa fa-arrows-h"></i>Reviews</a>
+        </div>
+        <div class="box">
+            <h3>Newsletter</h3>
+       <p>Drop your contact for latest updates!</p>
+        <input type="number" placeholder="your contact" class="contactnumber">
+        <input type="submit" value="subscribe" class="btn">
+        
+        <img src="images/indiamart.png" alt="" class="quality">
+       
+        </div>
+    </div>
+</section>
 
 
 
@@ -80,8 +734,23 @@
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
-    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    function gotowhatsapp() {
+
+        var number = document.getElementById("number").value;
+        var comment = document.getElementById("comment").value;
+       
+
+        var url = "https://wa.me/919214504323?text="
+            + "Phone: " + number + "%0a"
+            + "comment: " + comment + "%0a"
+         
+
+        window.open(url, '_blank').focus();
+    }
+</script>
 </body>
 </html>
