@@ -481,7 +481,7 @@ text-align: center;
     color: var(--light-color);
     padding: 1rem 0;
   }
-  .granite .main-wrapper{
+ .main-wrapper{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -489,7 +489,7 @@ text-align: center;
  
   
   
-  .granite .heading span{
+ .heading span{
   
     margin-top: 8rem;
     background: var(--peach);
@@ -499,32 +499,32 @@ text-align: center;
     clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
 
 }
-.granite .container{
+.container{
     padding: 1rem 5%;
     background: #eee;
   }
 
-  .granite .product-div{
+  .product-div{
 margin: 1rem 0;
 padding: 2rem 0;
 display: grid;
 grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
 gap: 1.5rem;
   }
-  .granite .product-div-left{
+ .product-div-left{
     padding: 20px;
   }
-  .granite .product-div-right{
+ .product-div-right{
     padding: 20px;
   }
-  .granite .hover-container{
+ .hover-container{
     display: flex;
    
     align-items: center;
     justify-content: center;
     
   }
-  .granite .hover-container div{
+ .hover-container div{
     border: 2px solid white;
     padding: 1rem 0;
     border-radius: 3px;
@@ -533,39 +533,37 @@ gap: 1.5rem;
     align-items: center;
     justify-content: center;
   }
-  .granite .hover-container div:hover{
-    border-color:  black;
-  }
-  .granite .hover-container div img{
-    width: 80%;
+.hover-container div img{
+    width: 100%;
+  
     cursor: pointer;
    
   }
- .granite .product-div-right span{
+ .product-div-right span{
     display: block;
   }
-  .granite .product-div-right .product-name{
+ .product-div-right .product-name{
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 1px;
     opacity: 0.9;
   }
-  .granite .product-div-right .product-size{
+.product-div-right .product-size{
     font-size: 2.5rem;
     letter-spacing: 1px;
     color: var(--light-color);
   }
-  .granite .product-div-right .body-type{
+ .product-div-right .body-type{
     font-size: 2rem;
     letter-spacing: 1px;
     color: var(--light-color);
   }
-  .granite .product-div-right .finish{
+.product-div-right .finish{
     font-size: 2rem;
     letter-spacing: 1px;
     color: var(--light-color);
   }
-  .granite .product-div-right .star i{
+ .product-div-right .star i{
     color: var(--peach);
     font-size: 1.7em;
   }
@@ -758,13 +756,13 @@ gap: 1.5rem;
        section{
         padding: 2rem;
     }
-    .granite .product-div{
+     .product-div{
         grid-template-columns: 100%;
     }
-    .granite .product-div-right{
+   .product-div-right{
         text-align: center;
     }
-    .granite .product-div-right .star i{
+    .product-div-right .star i{
         justify-content: center;
       }
       .popup .overlay{
@@ -836,6 +834,10 @@ gap: 1.5rem;
         top: 0;
         right: 10px;
         margin: 0;
+      }
+      .granite .heading span{
+  
+        margin-top: 21rem;
       }
 }
 
