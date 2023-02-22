@@ -10,34 +10,42 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <header class="header" id="header">
-        <a href="#" class="logo"><img class="logoimage" src="images/logo.png"><img class="firmname" src="images/Firm Name.png"></a>
+    <header class="header">
+        <a href="#" class="logo"><img class="logoimage" src="images/logo icon.jpg"><h1>Antique Marble World</h1>
+         </a>
         <nav class="navbar">
             <a href="index.html#home">Home</a>
             <a href="index.html#aboutus">About Us</a>
             <a href="index.html#product">Product</a>
-            <a href="index.html#contact">contact</a>
+            <a href="index.html#contact">Contact</a>
             <a href="index.html#review">Reviews</a>
     
             </nav>
             <div class="icons">
                 <div class="fa fa-bars" id="menu-btn"></div>
-                
-                <div class="fa fa-whatsapp" id="whatsapp-btn"  aria-hidden="true"></div>
-                </div>
                
-                    <form action="" class="contact">
-                        <h3>Chat with Us</h3>
-                        <input type="text" placeholder="Name"  id="name" class="box">
+              <div class="chat"><div class="fa fa-comments-o" id="chat" aria-hidden="true"></div></div>  
+                </div>
+                
+                    <form action="" class="contact" onsubmit="sendEmail(); reset(); return false;">
+                        <h3>Submit Your Enquiry</h3>
+                        <input type="text" placeholder="Name"  id="name" class="box" required>
+                        <input type="email" placeholder="Email"  id="email" class="box">
+                        <input type="number" placeholder="Contact Number"  id="number" class="box" required>
                       
-                        <input type="text" placeholder="Comments..." id="comment" class="box">
-                        <input type="submit" placeholder="submit" class="btn" onclick="gotowhatsapp()" value="Submit">
+                        <input type="text" placeholder="Write your message here.." id="message" class="box">
+                        <input type="submit" placeholder="submit" class="btn" value="Submit" >
                     </form>
         </header>
+        <div class="whatsapp-btn">
+            <i class="fa fa-whatsapp" aria-hidden="true" onclick="gotowhatsapp()">
+    </i></div>
         <section class="italicmarble" id="italicmarble">
-            <h1 class="heading"><span heading>Italic Marble</span></h1>
+           
              <div class="main-wrapper">
                 <div class="container">
+                    <h1 class="heading"><span heading>Italian Marble</span></h1>
+                    <h2>Italian marble has a luxurious crystal-like appearance and a high lustrous sheen. Italian marble is very high-quality lustre, pearly and luminescent./h2>
                     <div class="product-div" id="italian">
                         <div class="product-div-left">
                             <div class="img-container">
@@ -50,7 +58,11 @@
                         </div>
                         <div class="product-div-right">
                             <span class="product-name">Italian Marble</span>
+                            <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
                
+                            <br>
+                            <br>
                         
                             <div class="star">
                                 <i class="fa fa-star"></i>
@@ -60,6 +72,12 @@
                                 <i class="fa fa-star-half-o"></i>
                             </div>
                             <a href="#popup" class="btn">Buy Now</a>
+                            <div class="description">
+                                <h2 class="description">Description</h2>
+                                <p>Italian Range marbles are highly durable and have a long life. These marble's raw stones are imported from Italy in India and have high demand around the world.</p>
+                                 
+                            </div>
+
                         </div>
 
                 </div>
@@ -75,7 +93,11 @@
                         </div>
                         <div class="product-div-right">
                             <span class="product-name">Antique Beige Marble</span>
+                            <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
                
+                            <br>
+                            <br>
                         
                             <div class="star">
                                 <i class="fa fa-star"></i>
@@ -85,6 +107,11 @@
                                 <i class="fa fa-star-half-o"></i>
                             </div>
                             <a href="#popup" class="btn">Buy Now</a>
+                            <div class="description">
+                                <h2 class="description">Description</h2>
+                                <p>Antique beige is a subtle exotic granite. This graciously polished granite has classic textures. Its solid beige color can bring light and life to any space that you install it in. It is a great example of the natural beauty granite can bring to your home.</p>
+                                 
+                            </div>
                         </div>
 
                 </div>
@@ -100,7 +127,11 @@
                     </div>
                     <div class="product-div-right">
                         <span class="product-name">Botticino Marble</span>
-                        
+                        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
                       
                         
                         <div class="star">
@@ -111,6 +142,11 @@
                             <i class="fa fa-star-half-o"></i>
                         </div>
                         <a href="#popup" class="btn" >Buy Now</a>
+                        <div class="description">
+                            <h2 class="description">Description</h2>
+                            <p>Botticino Marble Tile is a natural stone tile with white veins and spots throughout. This kind of marble tile has been quarried in the Italian Alps since antiquity, where it was used to create many historical landmarks. The name "Botticino" originates from the Italian word "botti", meaning barrels.</p>
+                             
+                        </div>
                     </div>
 
             </div>
@@ -125,9 +161,13 @@
                     </div>
                 </div>
                 <div class="product-div-right">
-                    <span class="product-name">Beiga Serpeggiante Marble</span>
+                    <span class="product-name">Beige Serpeggiante Marble</span>
                     
-                   
+                    <br>
+                    <a href="#popup" class="getpricebtn">Get Best Price</a>
+       
+                    <br>
+                    <br>
                     
                     <div class="star">
                         <i class="fa fa-star"></i>
@@ -137,6 +177,11 @@
                         <i class="fa fa-star-half-o"></i>
                     </div>
                     <a href="#popup" class="btn" >Buy Now</a>
+                    <div class="description">
+                        <h2 class="description">Description</h2>
+                        <p>Serpeggiante is a cream to beige marble with uniform wooden-like veins. The irregular streaks in darker shades create unique effects that is able to add a touch of personality and elegance to any setting. It offers no absolute uniformity in veins, colours, shades and structures.</p>
+                         
+                    </div>
                 </div>
 
         </div>
@@ -153,7 +198,11 @@
             <div class="product-div-right">
                 <span class="product-name">Red Lavante Marble</span>
                 
-                
+                <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
                 
                 <div class="star">
                     <i class="fa fa-star"></i>
@@ -163,6 +212,11 @@
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <a href="#popup" class="btn" >Buy Now</a>
+                <div class="description">
+                    <h2 class="description">Description</h2>
+                    <p>Red Lavante Marble is widely used for floorings, wall claddings, borders and designs, handicraft items and many more. Red Lavante Marble is a multi usable product and therefore , it can be placed in bedrooms, dinning halls, kitchens, lobby's, parkings , store rooms, temple rooms or many more.</p>
+                     
+                </div>
             </div>
 
     </div>
@@ -178,7 +232,11 @@
         </div>
         <div class="product-div-right">
             <span class="product-name">Baltic Crocodile Marble</span>
-            
+            <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
            
             
             <div class="star">
@@ -189,6 +247,11 @@
                 <i class="fa fa-star-half-o"></i>
             </div>
             <a href="#popup" class="btn" >Buy Now</a>
+            <div class="description">
+                <h2 class="description">Description</h2>
+                <p>The beautiful colourful and bright backdrop of Baltic Crocodile Marble contrasts with dark grey striations. Bigg dimensions up to 406x812mm are available.</p>
+                 
+            </div>
         </div>
 
 </div>
@@ -205,7 +268,11 @@
     <div class="product-div-right">
         <span class="product-name">Baltic Sea Wave Marble</span>
         
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         
         <div class="star">
             <i class="fa fa-star"></i>
@@ -215,6 +282,11 @@
             <i class="fa fa-star-half-o"></i>
         </div>
         <a href="#popup" class="btn" >Buy Now</a>
+        <div class="description">
+            <h2 class="description">Description</h2>
+            <p>Beautiful stone with dependable patterns and fluid movement is called Baltic Sea Wave Marble. It is perfect for stunning bathroom vanities, fireplace surrounds, backsplashes, outdoor and indoor kitchen surfaces, and more..</p>
+             
+        </div>
     </div>
 
 </div>
@@ -230,7 +302,11 @@
     </div>
     <div class="product-div-right">
         <span class="product-name">yellow Valencia Marble</span>
-      
+        <br>
+        <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+        <br>
+        <br>
         
         <div class="star">
             <i class="fa fa-star"></i>
@@ -240,6 +316,11 @@
             <i class="fa fa-star-half-o"></i>
         </div>
         <a href="#popup" class="btn" >Buy Now</a>
+        <div class="description">
+            <h2 class="description">Description</h2>
+            <p>Bold and beautiful are just two words to describe Yellow Valencia. Luxurious, warm and inviting are just a few more. This Deep yellow gold marble with subtle light cream and rich rust accents compliment many design styles.</p>
+             
+        </div>
     </div>
 
 </div>
@@ -256,7 +337,11 @@
     </div>
     <div class="product-div-right">
         <span class="product-name">Titatnium Black Marble</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
    
         
         <div class="star">
@@ -267,6 +352,11 @@
             <i class="fa fa-star-half-o"></i>
         </div>
         <a href="#popup" class="btn" >Buy Now</a>
+        <div class="description">
+            <h2 class="description">Description</h2>
+            <p>Titanium Black granite is a dramatic natural stone with veins of beige and white swirling against dark grey and black veins. This stone is ideal for a variety of applications and styles, including kitchen countertops, bathroom vanity tops, backsplashes, tub surrounds, outdoor kitchen countertops and other surfaces.</p>
+             
+        </div>
     </div>
 
 </div>
@@ -282,7 +372,11 @@
     </div>
     <div class="product-div-right">
         <span class="product-name">Bronzite Marble</span>
-      
+        <br>
+        <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+        <br>
+        <br>
         
         <div class="star">
             <i class="fa fa-star"></i>
@@ -292,22 +386,31 @@
             <i class="fa fa-star-half-o"></i>
         </div>
         <a href="#popup" class="btn" >Buy Now</a>
+        <div class="description">
+            <h2 class="description">Description</h2>
+            <p>The rare and exquisite Brescia Aurora marble closely resembles the magnificent northern lights with its beige, white, and red flecks scattered throughout.</p>
+             
+        </div>
     </div>
 
 </div>
 <div class="product-div">
     <div class="product-div-left">
         <div class="img-container">
-            <img src="images/blue classic marble.jpg" alt="" width="100%" height="100%">
+            <img src="images/blue classic 2.jpg" alt="" width="100%" height="100%">
         </div>
         <div class="hover-container">
-           <div> <img src="images/blue classic 2.jpg"  width="50%" height="50%"></div>
+           <div> <img src="images/blue classic marble.jpg"  width="50%" height="50%"></div>
            <div> <img src="images/blue classic marble.jpg"  width="50%" height="50%"></div>
         </div>
     </div>
     <div class="product-div-right">
         <span class="product-name">Blue Classic Marble</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
       
         
         <div class="star">
@@ -333,110 +436,11 @@
     </div>
     <div class="product-div-right">
         <span class="product-name">Smoky Caramel Marble</span>
-        
-        
-        
-        <div class="star">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-        </div>
-        <a href="#popup" class="btn" >Buy Now</a>
-    </div>
-
-</div>
-<div class="product-div">
-    <div class="product-div-left">
-        <div class="img-container">
-            <img src="images/silver-tiger-onyx-marble.webp" alt="" width="100%" height="100%">
-        </div>
-        <div class="hover-container">
-           <div> <img src="images/Silver-tiger-onyx-1-768x504.jpg"  width="50%" height="50%"></div>
-           <div> <img src="images/Silver-tiger-onyx-backlit.jpg"  width="50%" height="50%"></div>
-        </div>
-    </div>
-    <div class="product-div-right">
-        <span class="product-name">Silver Tiger Onyx Marble</span>
-        
-       
-        
-        <div class="star">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-        </div>
-        <a href="#popup" class="btn" >Buy Now</a>
-    </div>
-
-</div>
-<div class="product-div">
-    <div class="product-div-left">
-        <div class="img-container">
-            <img src="images/almond traver marble.webp" alt="" width="100%" height="100%">
-        </div>
-        <div class="hover-container">
-           <div> <img src="images/almond-traver-onyx-2.jpg"  width="50%" height="50%"></div>
-           <div> <img src="images/almond-traver-onyx-3.jpg"  width="50%" height="50%"></div>
-        </div>
-    </div>
-    <div class="product-div-right">
-        <span class="product-name">Almond Traver Marble</span>
-        
-
-        
-        <div class="star">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-        </div>
-        <a href="#popup" class="btn" >Buy Now</a>
-    </div>
-
-</div>
-<div class="product-div">
-    <div class="product-div-left">
-        <div class="img-container">
-            <img src="images/Red-Travertine-Veined-Slab.jpg" alt="" width="100%" height="100%">
-        </div>
-        <div class="hover-container">
-           <div> <img src="images/Red-Travertine-1.jpg"  width="50%" height="50%"></div>
-           <div> <img src="images/red-travertine-marble-500x500.webp"  width="50%" height="50%"></div>
-        </div>
-    </div>
-    <div class="product-div-right">
-        <span class="product-name">Red Travertine Marble</span>
-        
-      
-        
-        <div class="star">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star-half-o"></i>
-        </div>
-        <a href="#popup" class="btn" >Buy Now</a>
-    </div>
-
-</div>
-<div class="product-div">
-    <div class="product-div-left">
-        <div class="img-container">
-            <img src="images/Walnut-Travertine-vc-3.jpg"  width="100%" height="100%">
-        </div>
-        <div class="hover-container">
-           <div> <img src="images/Walnut-Travertine-vc-3.jpg"  width="50%" height="50%"></div>
-           <div> <img src="images/walnut travertien 1.jpg"  width="50%" height="50%"></div>
-        </div>
-    </div>
-    <div class="product-div-right">
-        <span class="product-name">Walnut Travertine Marble</span>
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         
         
         <div class="star">
@@ -447,292 +451,22 @@
             <i class="fa fa-star-half-o"></i>
         </div>
         <a href="#popup" class="btn" >Buy Now</a>
+        <div class="description">
+            <h2 class="description">Description</h2>
+            <p>Smoky Caramel Onyx. Additional information. Additional Information. Category. Onyx. Color. Brown ... Smoky Beige Onyx.</p>
+             
+        </div>
     </div>
 
 </div>
+
 
 
         </div>
                 </div>
            
             </section>
-            <section class="indianmarble" id="indianmarble">
-                <h1 class="heading"><span heading>Indian Marble</span></h1>
-                 <div class="main-wrapper">
-                    <div class="container">
-                        <div class="product-div">
-                            <div class="product-div-left">
-                                <div class="img-container">
-                                    <img src="images/PISTA-WHITE-MARBLE 1.png" width="100%" height="100%">
-                                </div>
-                                <div class="hover-container">
-                                   <div> <img src="images/pista-white-marble.webp"  width="50%" height="50%"></div>
-                                   <div> <img src="images/pista-white-marble-slabs.jpeg"  width="50%" height="50%"></div>
-                                </div>
-                            </div>
-                            <div class="product-div-right">
-                                <span class="product-name">Pista White Marble</span>
-                                <span class="product-size">PRICE- 50RS TO 150RS PER SQFT</span>
-                   
-                            
-                                <div class="star">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half-o"></i>
-                                </div>
-                                <a href="#popup" class="btn">Buy Now</a>
-                            </div>
-    
-                    </div>
-                        <div class="product-div">
-                            <div class="product-div-left">
-                                <div class="img-container">
-                                    <img src="images/jhanjhar marble.jpg" width="100%" height="100%">
-                                </div>
-                                <div class="hover-container">
-                                   <div> <img src="images/Janjar2.jpeg"  width="50%" height="50%"></div>
-                                   <div> <img src="images/jhanjhar-white-marble-slab.jpeg"  width="50%" height="50%"></div>
-                                </div>
-                            </div>
-                            <div class="product-div-right">
-                                <span class="product-name">Jhanjhar Marble</span>
-                                <span class="product-size">PRICE- 45RS TO 90RS PER SQFT</span>
-                            
-                                <div class="star">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star-half-o"></i>
-                                </div>
-                                <a href="#popup" class="btn">Buy Now</a>
-                            </div>
-    
-                    </div>
-                    <div class="product-div" >
-                        <div class="product-div-left">
-                            <div class="img-container">
-                                <img src="images/wonder white 2.jpg" width="100%" height="100%">
-                            </div>
-                            <div class="hover-container">
-                               <div> <img src="images/wonder white 2.jpg"  width="50%" height="50%"></div>
-                               <div> <img src="images/wonder-marble-.jpg"  width="50%" height="50%"></div>
-                            </div>
-                        </div>
-                        <div class="product-div-right">
-                            <span class="product-name">WONDER WHITE MARBLE</span>
-                            <span class="product-size">PRICE- 60RS TO 150RS PER SQFT</span>
-                          
-                            
-                            <div class="star">
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-half-o"></i>
-                            </div>
-                            <a href="#popup" class="btn" >Buy Now</a>
-                        </div>
-    
-                </div>
-                <div class="product-div">
-                    <div class="product-div-left">
-                        <div class="img-container">
-                            <img src="images/aspur.jpg"  width="100%" height="100%">
-                        </div>
-                        <div class="hover-container">
-                           <div> <img src="images/aspur marble.webp"  width="50%" height="50%"></div>
-                           <div> <img src="images/Aspur_1.jpg"  width="50%" height="50%"></div>
-                        </div>
-                    </div>
-                    <div class="product-div-right">
-                        <span class="product-name">ASPUR WHITE MARBLE</span>
-                        <span class="product-size">PRICE- 40RS TO 70RS PER SQFT</span>
-                        
-                       
-                        
-                        <div class="star">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                        </div>
-                        <a href="#popup" class="btn" >Buy Now</a>
-                    </div>
-    
-            </div>
-            <div class="product-div" >
-                <div class="product-div-left">
-                    <div class="img-container">
-                        <img src="images/pink marble 1.avif" width="100%" height="100%">
-                    </div>
-                    <div class="hover-container">
-                       <div> <img src="images/pink marble 3.webp"  width="50%" height="50%"></div>
-                       <div> <img src="images/Pink-marble.jpg" width="50%" height="50%"></div>
-                    </div>
-                </div>
-                <div class="product-div-right">
-                    <span class="product-name">PINK Marble</span>
-                    <span class="product-size">PRICE- 35RS TO 65RS PER SQFT</span>
-                    
-                    
-                    
-                    <div class="star">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-o"></i>
-                    </div>
-                    <a href="#popup" class="btn" >Buy Now</a>
-                </div>
-    
-        </div>
-        <div class="product-div">
-            <div class="product-div-left">
-                <div class="img-container">
-                    <img src="images/oman marble.webp" alt="" width="100%" height="100%">
-                </div>
-                <div class="hover-container">
-                   <div> <img src="images/oman marble 3.webp"  width="50%" height="50%"></div>
-                   <div> <img src="images/Oman-Red-Marble.webp"  width="50%" height="50%"></div>
-                </div>
-            </div>
-            <div class="product-div-right">
-                <span class="product-name">OMAN MARBLE</span> 
-                 <span class="product-size">PRICE- 90RS TO 150RS PER SQFT</span>
-                
-               
-                
-                <div class="star">
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-half-o"></i>
-                </div>
-                <a href="#popup" class="btn" >Buy Now</a>
-            </div>
-    
-    </div>
-    <div class="product-div" >
-        <div class="product-div-left">
-            <div class="img-container">
-                <img src="images/indian red.jpg" alt="" width="100%" height="100%">
-            </div>
-            <div class="hover-container">
-               <div> <img src="images/red-lavante-marble.webp"  width="50%" height="50%"></div>
-               <div> <img src="images/indian red.jpg"  width="50%" height="50%"></div>
-            </div>
-        </div>
-        <div class="product-div-right">
-            <span class="product-name">INDIAN RED LAVANTE</span>
-            <span class="product-size">PRICE- 450RS TO 600RS PER SQFT</span>
-            
-            
-            
-            <div class="star">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-            </div>
-            <a href="#popup" class="btn" >Buy Now</a>
-        </div>
-    
-    </div>
-    <div class="product-div">
-        <div class="product-div-left">
-            <div class="img-container">
-                <img src="images/palissandro-bluette-sq.jpg" alt="" width="100%" height="100%">
-            </div>
-            <div class="hover-container">
-               <div> <img src="images/palissandro-grey-marble-slabs.jpg"  width="50%" height="50%"></div>
-               <div> <img src="images/pallisandro-grey-marble-1000x1000.webp"  width="50%" height="50%"></div>
-            </div>
-        </div>
-        <div class="product-div-right">
-            <span class="product-name">PALLISANDRO GREY MARBLE</span>
-            <span class="product-size">PRICE- 70RS TO 120RS PER SQFT</span>
           
-            
-            <div class="star">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-            </div>
-            <a href="#popup" class="btn" >Buy Now</a>
-        </div>
-    
-    </div>
-    
-    <div class="product-div">
-        <div class="product-div-left">
-            <div class="img-container">
-                <img src="images/ardosia.jpg" alt="" width="100%" height="100%">
-            </div>
-            <div class="hover-container">
-               
-               <div> <img src="images/ardosia-black-me.jpg"  width="50%" height="50%"></div>
-               <div> <img src="images/ardosia-black-mesh.jpg"  width="50%" height="50%"></div>
-            </div>
-        </div>
-        <div class="product-div-right">
-            <span class="product-name">Ardosia Black Marble</span>
-            <span class="product-size">PRICE- 70RS TO 120RS PER SQFT</span>
-            
-       
-            
-            <div class="star">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-            </div>
-            <a href="#popup" class="btn" >Buy Now</a>
-        </div>
-    
-    </div>
-    <div class="product-div">
-        <div class="product-div-left">
-            <div class="img-container">
-                <img src="images/Bhainslana-Black-Marble.jpeg" alt="" width="100%" height="100%">
-            </div>
-            <div class="hover-container">
-               <div> <img src="images/Black-Stone-Marble.jpg"  width="50%" height="50%"></div>
-               <div> <img src="images/Bhainslana-Black-Marble.jpeg"  width="50%" height="50%"></div>
-            </div>
-        </div>
-        <div class="product-div-right">
-            <span class="product-name">BHAINSLANA BLACK MARBLE</span>
-            <span class="product-size">PRICE- 60RS TO 100RS PER SQFT</span>
-          
-            
-            <div class="star">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-            </div>
-            <a href="#popup" class="btn" >Buy Now</a>
-        </div>
-    
-    </div>
-    
-    
-    
-            </div>
-                    </div>
-               
-                </section>
 
 
             <section class="popup">
@@ -741,12 +475,13 @@
                     <a href="#" class="close" id="close">&times;</a>
                     <div class="column details">
                         <div action="" class="details">
-                       <h1>Submit Your Query</h1> 
+                       <h1>Submit Your Details</h1> 
                        <input type="text" placeholder="Name" id="formname">
                        <input type="number" placeholder="Contact Number" id="contactnumber">
                        <input type="email" placeholder="Email" id="email">
                        <input type="text" placeholder="Message" id="message">
                        <input type="submit" placeholder="submit" class="btn" onclick="gotowhatsapp()" value="Submit">
+                       <center><h3>Our Team will contact you soon!</h3></center>
                     </div></div>
                     
                     <div class="column content">
@@ -781,47 +516,55 @@
                 </div>
             </section>
             <section class="footer" id="contact">
-                <div class="box-container">
-                    <div class="box">
-                       
-                        <h3><span>AMW</span> </h3>
-                      
-                        <div class="share">
-                            <a href="https://www.facebook.com/profile.php?id=100088377671199" class="fa fa-facebook"></a>
-                            <a href="https://twitter.com/AntiqueMarble" class="fa fa-twitter"></a>
-                           <a href="https://www.linkedin.com/in/antique-marble-world-921611259/" class="fa fa-linkedin"></a>
-                            
-                            <a href="https://www.instagram.com/antiquemarbleworld/" class="fa fa-instagram"></a>
-                            <a href="https://www.pinterest.com/antiquemarbleworld/" class="fa fa-pinterest"></a>
-                           <a href="https://www.tumblr.com/blog/antiquemarbleworld" class="fa fa-tumblr"></a>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h3>Contact Info </h3>
-                        
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+919636757008</a>
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+919950204444</a>
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+917665526555</a>
-                        <a href="#" class="links"><i class="fa fa-map-marker"></i>Kishangarh,Rajasthan</a>
-                    </div>
-                   
-                    <div class="box">
-                        <h3>Quick Links</h3>
-                       
-                        <a href="index.html#home" class="links"><i class="fa fa-arrows-h"></i>Home</a>
-                        <a href="index.html#aboutus" class="links"><i class="fa fa-arrows-h"></i>About Us</a>
-                        <a href="index.html#product" class="links"><i class="fa fa-arrows-h"></i>Product</a>
-                        <a href="index.html#contact" class="links"><i class="fa fa-arrows-h"></i>Contact</a>
-                        <a href="index.html#review" class="links"><i class="fa fa-arrows-h"></i>Reviews</a>
-                    </div>
-                    <div class="box">
-                       
+             <div class="box-container">
+                 <div class="box">
                     
-                    <img src="images/indiamart.png" alt="" class="quality">
+                     <h3><span>AMW</span> </h3>
                    
-                    </div>
-                </div>
-            </section>
+                     <div class="share">
+                         <a href="https://www.facebook.com/profile.php?id=100088377671199" class="fa fa-facebook"></a>
+                         <a href="https://twitter.com/AntiqueMarble" class="fa fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/antique-marble-world-921611259/" class="fa fa-linkedin"></a>
+                         
+                         <a href="https://www.instagram.com/antiquemarbleworld/" class="fa fa-instagram"></a>
+                         <a href="https://www.pinterest.com/antiquemarbleworld/" class="fa fa-pinterest"></a>
+                        <a href="https://www.tumblr.com/blog/antiquemarbleworld" class="fa fa-tumblr"></a>
+                     </div>
+                     <img src="images/indiamart.png" alt="" class="quality">
+                 </div>
+                 <div class="box">
+                     <h3>Contact Info </h3>
+                     
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+919636757008</a>
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+919950204444</a>
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+917665526555</a>
+                     <a href="#" class="links"><i class="fa fa-map-marker"></i>Kishangarh,Rajasthan</a>
+                 </div>
+                
+                 <div class="box">
+                     <h3>Quick Links</h3>
+                    
+                     <a href="index.html#home" class="links"><i class="fa fa-arrows-h"></i>Home</a>
+                     <a href="index.html#aboutus" class="links"><i class="fa fa-arrows-h"></i>About Us</a>
+                     <a href="index.html#product" class="links"><i class="fa fa-arrows-h"></i>Product</a>
+                     <a href="index.html#contact" class="links"><i class="fa fa-arrows-h"></i>Contact</a>
+                     <a href="index.html#review" class="links"><i class="fa fa-arrows-h"></i>Reviews</a>
+                 </div>
+                 <div class="box">
+                     <h3>Our Products</h3>
+                    
+                     <a href="italicmarble.html#italicmarble" class="links"><i class="fa fa-arrows-h"></i>Italian Marble</a>
+                     <a href="indianmarble.html#indianmarble" class="links"><i class="fa fa-arrows-h"></i>Indian Marble</a>
+                     <a href="importedmarble.html#importedmarble" class="links"><i class="fa fa-arrows-h"></i>Imported Marble</a>
+                     <a href="product.html#granite" class="links"><i class="fa fa-arrows-h"></i>Granite</a>
+                     <a href="tabletops.html#tabletop" class="links"><i class="fa fa-arrows-h"></i>Epoxy Tabletops</a>
+                     <a href="stone.html#stone" class="links"><i class="fa fa-arrows-h"></i>Ibizia Tech Stone</a>
+                     <a href="tile.html#tile" class="links"><i class="fa fa-arrows-h"></i>Tiles</a>
+                   
+                 </div>
+                 
+             </div>
+         </section>
          
             <script src="js/script.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
@@ -829,24 +572,8 @@
 
     
 
-            <script>
-                function gotowhatsapp() {
-            
-                    var name = document.getElementById("formname").value;
-                    var comment = document.getElementById("message").value;
-                    var  contactnumber= document.getElementById("contactnumber").value;
-                    var email = document.getElementById("email").value;
-                   
-            
-                    var url = "https://wa.me/917976029457?text="
-                        + "Name: " + formname + "%0a"
-                        + "Message: " + message + "%0a"
-                        + "Email: " + email + "%0a"
-                        + "Contact Number: " + contactnumber + "%0a"
-            
-                    window.open(url, '_blank').focus();
-                };
-               
+            <script src="https://smtpjs.com/v3/smtp.js">
+
             </script>
     
 </body>

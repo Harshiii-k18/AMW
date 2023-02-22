@@ -10,34 +10,42 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <header class="header" id="header">
-        <a href="#" class="logo"><img class="logoimage" src="images/logo.png"><img class="firmname" src="images/Firm Name.png"></a>
+    <header class="header">
+        <a href="#" class="logo"><img class="logoimage" src="images/logo icon.jpg"><h1>Antique Marble World</h1>
+         </a>
         <nav class="navbar">
             <a href="index.html#home">Home</a>
             <a href="index.html#aboutus">About Us</a>
             <a href="index.html#product">Product</a>
-            <a href="index.html#contact">contact</a>
+            <a href="index.html#contact">Contact</a>
             <a href="index.html#review">Reviews</a>
     
             </nav>
             <div class="icons">
                 <div class="fa fa-bars" id="menu-btn"></div>
-              
-                <div class="fa fa-whatsapp" id="whatsapp-btn"  aria-hidden="true"></div>
-                </div>
                
-                <form action="" class="contact">
-                    <h3>Chat with Us</h3>
-                    <input type="text" placeholder="Name"  id="name" class="box">
-                  
-                    <input type="text" placeholder="Comments..." id="comment" class="box">
-                    <input type="submit" placeholder="submit" class="btn" onclick="gotowhatsapp()" value="Submit">
-                </form>
+              <div class="chat"><div class="fa fa-comments-o" id="chat" aria-hidden="true"></div></div>  
+                </div>
+                
+                    <form action="" class="contact" onsubmit="sendEmail(); reset(); return false;">
+                        <h3>Submit Your Enquiry</h3>
+                        <input type="text" placeholder="Name"  id="name" class="box" required>
+                        <input type="email" placeholder="Email"  id="email" class="box">
+                        <input type="number" placeholder="Contact Number"  id="number" class="box" required>
+                      
+                        <input type="text" placeholder="Write your message here.." id="message" class="box">
+                        <input type="submit" placeholder="submit" class="btn" value="Submit" >
+                    </form>
         </header>
+         <div class="whatsapp-btn">
+        <i class="fa fa-whatsapp" aria-hidden="true" onclick="gotowhatsapp()">
+</i></div>
         <section class="stone" id="stone">
-            <h1 class="heading"><span heading>Stone</span></h1>
+           
              <div class="main-wrapper">
                 <div class="container">
+                    <h1 class="heading"><span heading>Stone</span></h1>
+                    <h2>Ibiza is one of the most popular marbles It can be used in floorings and walls. It can be polished, honed or brushed.</h2>
                     <div class="product-div" id="proclain">
                         <div class="product-div-left">
                             <div class="img-container">
@@ -46,10 +54,14 @@
                             
                         </div>
                         <div class="product-div-right">
-                            <span class="product-name">Proclian Slab</span>
+                            <span class="product-name">Porcelain Slab</span>
                             <span class="product-size">15mm Thickness / 800*2400</span>
                             <span class="body-type">Glossy</span>
-                        
+                            <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
                             <div class="star">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -58,6 +70,11 @@
                                 <i class="fa fa-star-half-o"></i>
                             </div>
                             <a href="#popup" class="btn">Buy Now</a>
+                            <div class="description">
+                                <h2 class="description">Description</h2>
+                                <p>Porcelain slab is a high fired ceramic surface much like porcelain tile. Porcelain uses ink jet technology capable of mimicking natural stone, wood, and virtually any look you can dream up. The benefit of Porcelain is that it has a scratch resistant surface and is impervious to chemicals.</p>
+                                 
+                            </div>
                         </div>
 
                 </div>
@@ -72,7 +89,11 @@
                         <span class="product-name">Crema SNP</span>
                         <span class="product-size">15mm Thickness / 800*2400</span>
                         <span class="body-type">Glossy</span>
-                    
+                        <br>
+                        <a href="#popup" class="getpricebtn">Get Best Price</a>
+           
+                        <br>
+                        <br>
                         <div class="star">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -81,6 +102,11 @@
                             <i class="fa fa-star-half-o"></i>
                         </div>
                         <a href="#popup" class="btn">Buy Now</a>
+                        <div class="description">
+                            <h2 class="description">Description</h2>
+                            <p>SNP Crema is more affordable and economical than granite and marble. It doesn't get stained and can be cleaned very easily in no time. Moreover, this eye-catching tile can be used at various places be it your commercial space or residential.</p>
+                             
+                        </div>
                     </div>
 
             </div>
@@ -96,7 +122,11 @@
                         
                         <span class="product-size">15mm Thickness / 800*2400</span>
                         <span class="body-type">Glossy</span>
-                        
+                        <br>
+                        <a href="#popup" class="getpricebtn">Get Best Price</a>
+           
+                        <br>
+                        <br>
                         <div class="star">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -105,6 +135,11 @@
                             <i class="fa fa-star-half-o"></i>
                         </div>
                         <a href="#popup" class="btn" >Buy Now</a>
+                        <div class="description">
+                            <h2 class="description">Description</h2>
+                            <p>Red Stone Range of Red Natural Stones For Classic Look.</p>
+                             
+                        </div>
                     </div>
 
             </div>
@@ -120,7 +155,11 @@
                     
                     <span class="product-size">15mm Thickness / 800*2400</span>
                     <span class="body-type">Glossy</span>
-                    
+                    <br>
+                    <a href="#popup" class="getpricebtn">Get Best Price</a>
+       
+                    <br>
+                    <br>
                     <div class="star">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -129,6 +168,11 @@
                         <i class="fa fa-star-half-o"></i>
                     </div>
                     <a href="#popup" class="btn" >Buy Now</a>
+                    <div class="description">
+                        <h2 class="description">Description</h2>
+                        <p>We are extremely proud to introduce CHOCO SNP STONE - Created by exclusive Italian ... CHOCO. SINTERED STONE. SINTERED STONE. 800 x2400 mm. Light Weight.</p>
+                         
+                    </div>
                 </div>
 
         </div>
@@ -144,7 +188,11 @@
                 
                 <span class="product-size">15mm Thickness / 800*2400</span>
                 <span class="body-type">Glossy</span>
-                
+                <br>
+                <a href="#popup" class="getpricebtn">Get Best Price</a>
+   
+                <br>
+                <br>
                 <div class="star">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -153,6 +201,11 @@
                     <i class="fa fa-star-half-o"></i>
                 </div>
                 <a href="#popup" class="btn" >Buy Now</a>
+                <div class="description">
+                    <h2 class="description">Description</h2>
+                    <p>We are extremely proud to introduce CHOCO SNP STONE - Created by exclusive Italian ... GREY. SINTERED STONE. SINTERED STONE. 800 x2400 mm. Light Weight.</p>
+                     
+                </div>
             </div>
 
     </div>
@@ -167,7 +220,11 @@
             <span class="product-name">BLACK SNP</span>
             <span class="product-size">15mm Thickness / 800*2400</span>
             <span class="body-type">Glossy</span>
-            
+            <br>
+            <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+            <br>
+            <br>
             <div class="star">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -176,6 +233,11 @@
                 <i class="fa fa-star-half-o"></i>
             </div>
             <a href="#popup" class="btn" >Buy Now</a>
+            <div class="description">
+                <h2 class="description">Description</h2>
+                <p>We are extremely proud to introduce CHOCO SNP STONE - Created by exclusive Italian ... Black. black SNP STONE. SINTERED STONE. 800 x2400 mm. Light Weight.</p>
+                 
+            </div>
         </div>
 
 </div>
@@ -199,6 +261,11 @@
             <i class="fa fa-star-half-o"></i>
         </div>
         <a href="#popup" class="btn" >Buy Now</a>
+        <div class="description">
+            <h2 class="description">Description</h2>
+            <p>Rich toffee brown colored Spanish marble with soft white and golden lines. The stone gives a luxury and modern effect to any interior design.</p>
+             
+        </div>
     </div>
 
 </div>
@@ -214,7 +281,11 @@
         
         <span class="product-size">15mm Thickness / 800*2400</span>
         <span class="body-type">Glossy</span>
-        
+        <br>
+        <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+        <br>
+        <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -223,6 +294,11 @@
             <i class="fa fa-star-half-o"></i>
         </div>
         <a href="#popup" class="btn" >Buy Now</a>
+        <div class="description">
+            <h2 class="description">Description</h2>
+            <p>Emerald Quartz is a trade name for quartz samples pulled larger deposit of the mineral mariposite, a chromium-rich variety of mica. This quartz variety is a rare, glassy to milky type of microcrystalline quartz valued for its green palette</p>
+             
+        </div>
     </div>
 
 </div>
@@ -239,7 +315,11 @@
         
         <span class="product-size">15mm Thickness / 800*2400</span>
         <span class="body-type">Glossy</span>
-        
+        <br>
+        <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+        <br>
+        <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -260,7 +340,11 @@
     </div>
     <div class="product-div-right">
         <span class="product-name">PERSAIN BLUE</span>
-        
+        <br>
+        <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+        <br>
+        <br>
         <span class="product-size">15mm Thickness / 800*2400</span>
         <span class="body-type">Glossy</span>
         
@@ -286,7 +370,11 @@
         <span class="product-name">THUNDER BLACK</span>
         <span class="product-size">15mm Thickness / 800*2400</span>
         <span class="body-type">Glossy</span>
-        
+        <br>
+        <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+        <br>
+        <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -310,7 +398,11 @@
         
         <span class="product-size">15mm Thickness / 800*2400</span>
                     <span class="body-type">Glossy</span>
-        
+                    <br>
+                    <a href="#popup" class="getpricebtn">Get Best Price</a>
+       
+                    <br>
+                    <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -334,7 +426,11 @@
         
         <span class="product-size">15mm Thickness / 800*2400</span>
                     <span class="body-type">Glossy</span>
-        
+                    <br>
+                    <a href="#popup" class="getpricebtn">Get Best Price</a>
+       
+                    <br>
+                    <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -358,7 +454,11 @@
         
         <span class="product-size">15mm Thickness / 800*2400</span>
         <span class="body-type">Glossy</span>
-        
+        <br>
+        <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+        <br>
+        <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -382,7 +482,11 @@
         
         <span class="product-size">15mm Thickness / 800*2400</span>
                     <span class="body-type">Glossy</span>
-        
+                    <br>
+                    <a href="#popup" class="getpricebtn">Get Best Price</a>
+       
+                    <br>
+                    <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -406,7 +510,11 @@
         
         <span class="product-size">15mm Thickness / 800*2400</span>
         <span class="body-type">Glossy</span>
-        
+        <br>
+        <a href="#popup" class="getpricebtn">Get Best Price</a>
+
+        <br>
+        <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -454,12 +562,13 @@
                     <a href="#" class="close" id="close">&times;</a>
                     <div class="column details">
                         <div action="" class="details">
-                       <h1>Submit Your Query</h1> 
+                       <h1>Submit Your Details</h1> 
                        <input type="text" placeholder="Name" id="formname">
                        <input type="number" placeholder="Contact Number" id="contactnumber">
                        <input type="email" placeholder="Email" id="email">
                        <input type="text" placeholder="Message" id="message">
                        <input type="submit" placeholder="submit" class="btn" onclick="gotowhatsapp()" value="Submit">
+                       <center><h3>Our Team will contact you soon!</h3></center>
                     </div></div>
                     
                     <div class="column content">
@@ -494,46 +603,55 @@
                 </div>
             </section>
             <section class="footer" id="contact">
-                <div class="box-container">
-                    <div class="box">
-                       
-                        <h3><span>AMW</span> </h3>
-                      
-                        <div class="share">
-                            <a href="https://www.facebook.com/profile.php?id=100088377671199" class="fa fa-facebook"></a>
-                            <a href="https://twitter.com/AntiqueMarble" class="fa fa-twitter"></a>
-                           <a href="https://www.linkedin.com/in/antique-marble-world-921611259/" class="fa fa-linkedin"></a>
-                            
-                            <a href="https://www.instagram.com/antiquemarbleworld/" class="fa fa-instagram"></a>
-                            <a href="https://www.pinterest.com/antiquemarbleworld/" class="fa fa-pinterest"></a>
-                           <a href="https://www.tumblr.com/blog/antiquemarbleworld" class="fa fa-tumblr"></a>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h3>Contact Info </h3>
-                        
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+919636757008</a>
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+919950204444</a>
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+917665526555</a>
-                        <a href="#" class="links"><i class="fa fa-map-marker"></i>Kishangarh,Rajasthan</a>
-                    </div>
-                   
-                    <div class="box">
-                        <h3>Quick Links</h3>
-                        <a href="index.html#home" class="links"><i class="fa fa-arrows-h"></i>Home</a>
-                        <a href="index.html#aboutus" class="links"><i class="fa fa-arrows-h"></i>About Us</a>
-                        <a href="index.html#product" class="links"><i class="fa fa-arrows-h"></i>Product</a>
-                        <a href="index.html#contact" class="links"><i class="fa fa-arrows-h"></i>Contact</a>
-                        <a href="index.html#review" class="links"><i class="fa fa-arrows-h"></i>Reviews</a>
-                    </div>
-                    <div class="box">
-                       
+             <div class="box-container">
+                 <div class="box">
                     
-                    <img src="images/indiamart.png" alt="" class="quality">
+                     <h3><span>AMW</span> </h3>
                    
-                    </div>
-                </div>
-            </section>
+                     <div class="share">
+                         <a href="https://www.facebook.com/profile.php?id=100088377671199" class="fa fa-facebook"></a>
+                         <a href="https://twitter.com/AntiqueMarble" class="fa fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/antique-marble-world-921611259/" class="fa fa-linkedin"></a>
+                         
+                         <a href="https://www.instagram.com/antiquemarbleworld/" class="fa fa-instagram"></a>
+                         <a href="https://www.pinterest.com/antiquemarbleworld/" class="fa fa-pinterest"></a>
+                        <a href="https://www.tumblr.com/blog/antiquemarbleworld" class="fa fa-tumblr"></a>
+                     </div>
+                     <img src="images/indiamart.png" alt="" class="quality">
+                 </div>
+                 <div class="box">
+                     <h3>Contact Info </h3>
+                     
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+919636757008</a>
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+919950204444</a>
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+917665526555</a>
+                     <a href="#" class="links"><i class="fa fa-map-marker"></i>Kishangarh,Rajasthan</a>
+                 </div>
+                
+                 <div class="box">
+                     <h3>Quick Links</h3>
+                    
+                     <a href="index.html#home" class="links"><i class="fa fa-arrows-h"></i>Home</a>
+                     <a href="index.html#aboutus" class="links"><i class="fa fa-arrows-h"></i>About Us</a>
+                     <a href="index.html#product" class="links"><i class="fa fa-arrows-h"></i>Product</a>
+                     <a href="index.html#contact" class="links"><i class="fa fa-arrows-h"></i>Contact</a>
+                     <a href="index.html#review" class="links"><i class="fa fa-arrows-h"></i>Reviews</a>
+                 </div>
+                 <div class="box">
+                     <h3>Our Products</h3>
+                    
+                     <a href="italicmarble.html#italicmarble" class="links"><i class="fa fa-arrows-h"></i>Italian Marble</a>
+                     <a href="indianmarble.html#indianmarble" class="links"><i class="fa fa-arrows-h"></i>Indian Marble</a>
+                     <a href="importedmarble.html#importedmarble" class="links"><i class="fa fa-arrows-h"></i>Imported Marble</a>
+                     <a href="product.html#granite" class="links"><i class="fa fa-arrows-h"></i>Granite</a>
+                     <a href="tabletops.html#tabletop" class="links"><i class="fa fa-arrows-h"></i>Epoxy Tabletops</a>
+                     <a href="stone.html#stone" class="links"><i class="fa fa-arrows-h"></i>Ibizia Tech Stone</a>
+                     <a href="tile.html#tile" class="links"><i class="fa fa-arrows-h"></i>Tiles</a>
+                   
+                 </div>
+                 
+             </div>
+         </section>
          
             <script src="js/script.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
@@ -541,24 +659,8 @@
 
     
 
-            <script>
-                function gotowhatsapp() {
-            
-                    var name = document.getElementById("formname").value;
-                    var comment = document.getElementById("message").value;
-                    var  contactnumber= document.getElementById("contactnumber").value;
-                    var email = document.getElementById("email").value;
-                   
-            
-                    var url = "https://wa.me/917976029457?text="
-                        + "Name: " + formname + "%0a"
-                        + "Message: " + message + "%0a"
-                        + "Email: " + email + "%0a"
-                        + "Contact Number: " + contactnumber + "%0a"
-            
-                    window.open(url, '_blank').focus();
-                };
-               
+            <script src="https://smtpjs.com/v3/smtp.js">
+
             </script>
     
 </body>

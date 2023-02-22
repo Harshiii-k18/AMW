@@ -10,33 +10,42 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    <header class="header" id="header">
-        <a href="#" class="logo"><img class="logoimage" src="images/logo.png"><img class="firmname" src="images/Firm Name.png"></a>
+    <header class="header">
+        <a href="#" class="logo"><img class="logoimage" src="images/logo icon.jpg"><h1>Antique Marble World</h1>
+         </a>
         <nav class="navbar">
             <a href="index.html#home">Home</a>
             <a href="index.html#aboutus">About Us</a>
             <a href="index.html#product">Product</a>
-            <a href="index.html#contact">contact</a>
+            <a href="index.html#contact">Contact</a>
             <a href="index.html#review">Reviews</a>
     
             </nav>
             <div class="icons">
                 <div class="fa fa-bars" id="menu-btn"></div>
                
-                <div class="fa fa-whatsapp" id="whatsapp-btn"  aria-hidden="true"></div>
+              <div class="chat"><div class="fa fa-comments-o" id="chat" aria-hidden="true"></div></div>  
                 </div>
-                <form action="" class="contact">
-                    <h3>Chat with Us</h3>
-                    <input type="text" placeholder="Name"  id="name" class="box">
-                  
-                    <input type="text" placeholder="Comments..." id="comment" class="box">
-                    <input type="submit" placeholder="submit" class="btn" onclick="gotowhatsapp()" value="Submit">
-                </form>
+                
+                    <form action="" class="contact" onsubmit="sendEmail(); reset(); return false;">
+                        <h3>Submit Your Enquiry</h3>
+                        <input type="text" placeholder="Name"  id="name" class="box" required>
+                        <input type="email" placeholder="Email"  id="email" class="box">
+                        <input type="number" placeholder="Contact Number"  id="number" class="box" required>
+                      
+                        <input type="text" placeholder="Write your message here.." id="message" class="box">
+                        <input type="submit" placeholder="submit" class="btn" value="Submit" >
+                    </form>
         </header>
+        <div class="whatsapp-btn">
+            <i class="fa fa-whatsapp" aria-hidden="true" onclick="gotowhatsapp()">
+    </i></div>
         <section class="granite" id="granite">
-            <h1 class="heading"><span heading>Granite</span></h1>
+           
              <div class="main-wrapper">
                 <div class="container">
+                    <h1 class="heading"><span heading>Granite</span></h1>
+                    <h2>Granite is used in buildings, bridges, paving, monuments, and many other exterior projects. Indoors, polished granite slabs and tiles are used in countertops, tile floors, stair treads and many other design elements. Granite is a prestige material, used in projects to produce impressions of elegance and quality.</h2>
                     <div class="product-div">
                         <div class="product-div-left">
                             <div class="img-container">
@@ -75,7 +84,11 @@
                     <div class="product-div-right">
                         <span class="product-name">MERCURY BLACK GRANITE</span>
                         <span class="product-size">PRICE- 55RS TO 95RS PER SQFT</span>
-                    
+                        <br>
+                        <a href="#popup" class="getpricebtn">Get Best Price</a>
+           
+                        <br>
+                        <br>
                         <div class="star">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -101,7 +114,11 @@
                         <span class="product-name">ROSY PINK GRANITE</span>
                         
                         <span class="body-type">PRICE- 55RS TO 75RS PER SQFT</span>
-                        
+                        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
                         <div class="star">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -127,7 +144,11 @@
                     <span class="product-name">CHIMA PINK GRANITE</span>
                     
                     <span class="body-type">PRICE- 60RS TO 80RS PER SQFT</span>
-                    
+                    <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
                     <div class="star">
                         <i class="fa fa-star"></i>
                         <i class="fa fa-star"></i>
@@ -153,7 +174,11 @@
                 <span class="product-name">BRAZIL BROWN GRANITE</span>
                 
                 <span class="body-type">PRICE- 60RS TO 90RS PER SQFT</span>
-                
+                <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
                 <div class="star">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
@@ -179,7 +204,11 @@
             <span class="product-name">TAN BROWN GRANITE</span>
             
             <span class="body-type">PRICE- 65RS TO 95RS PER SQFT</span>
-            
+            <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
             <div class="star">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -205,7 +234,11 @@
         <span class="product-name">P WHITE GRANITE</span>
         
         <span class="body-type">PRICE- 50RS TO 75RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -231,7 +264,11 @@
         <span class="product-name">S WHITE GRANITE</span>
         
         <span class="body-type">PRICE- 85RS TO 120RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -258,7 +295,11 @@
         <span class="product-name">C WHITE GRANITE</span>
         
         <span class="body-type">PRICE- 60RS TO 85RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -284,7 +325,11 @@
         <span class="product-name">TIGER SKIN GRANITE</span>
         
         <span class="body-type">PRICE- 65RS TO 95RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -310,7 +355,11 @@
         <span class="product-name">APPLE GREEN GRANITE</span>
         
         <span class="body-type">PRICE- 60RS TO 90RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -336,7 +385,11 @@
         <span class="product-name">FISH GOLD GRANITE</span>
         
         <span class="body-type">PRICE- 70RS TO 95RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -362,7 +415,11 @@
         <span class="product-name">FISH BLACK GRANITE</span>
         
         <span class="body-type">PRICE- 70RS TO 95RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -388,7 +445,11 @@
         <span class="product-name">BLACK MARQUINO GRANITE</span>
         
         <span class="body-type">PRICE- 60RS TO 95RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -414,7 +475,11 @@
         <span class="product-name">ICE BLUE GRANITE</span>
         
         <span class="body-type">PRICE- 60RS TO 90RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -440,7 +505,11 @@
         <span class="product-name">DESSERT GREEN GRANITE</span>
         
         <span class="body-type">PRICE- 60RS TO 90RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -466,7 +535,11 @@
         <span class="product-name">CRYSTAL BLUE GRANITE</span>
         
         <span class="body-type">PRICE- 60RS TO 90RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -492,7 +565,11 @@
         <span class="product-name">MULTI RED GRANITE</span>
         
         <span class="body-type">PRICE- 75RS TO 100RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -518,7 +595,11 @@
         <span class="product-name">RUBY RED GRANITE</span>
         
         <span class="body-type">PRICE- 90RS TO 120RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -544,7 +625,11 @@
         <span class="product-name">STEEL GREY GRANITE</span>
         
         <span class="body-type">PRICE- 60RS TO 90RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -570,7 +655,11 @@
         <span class="product-name">ADHUNIK BROWN GRANITE</span>
         
         <span class="body-type">PRICE- 60RS TO 85RS PER SQFT</span>
-        
+        <br>
+                            <a href="#popup" class="getpricebtn">Get Best Price</a>
+               
+                            <br>
+                            <br>
         <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -593,12 +682,13 @@
                     <a href="#" class="close" id="close">&times;</a>
                     <div class="column details">
                         <div action="" class="details">
-                       <h1>Submit Your Query</h1> 
+                       <h1>Submit Your Details</h1> 
                        <input type="text" placeholder="Name" id="formname">
                        <input type="number" placeholder="Contact Number" id="contactnumber">
                        <input type="email" placeholder="Email" id="email">
                        <input type="text" placeholder="Message" id="message">
                        <input type="submit" placeholder="submit" class="btn" onclick="gotowhatsapp()" value="Submit">
+                       <center><h3>Our Team will contact you soon!</h3></center>
                     </div></div>
                     
                     <div class="column content">
@@ -609,13 +699,13 @@
                                 <h3><span>AMW</span> </h3>
                               
                                 <div class="share">
-                                    <a href="#" class="fa fa-facebook"></a>
-                                    <a href="#" class="fa fa-twitter"></a>
-                                   <a href="#" class="fa fa-linkedin"></a>
+                                    <a href="https://www.facebook.com/profile.php?id=100088377671199" class="fa fa-facebook"></a>
+                                    <a href="https://twitter.com/AntiqueMarble" class="fa fa-twitter"></a>
+                                   <a href="https://www.linkedin.com/in/antique-marble-world-921611259/" class="fa fa-linkedin"></a>
                                     
-                                    <a href="#" class="fa fa-instagram"></a>
-                                    <a href="#" class="fa fa-pinterest"></a>
-                                   <a href="#" class="fa fa-tumblr"></a>
+                                    <a href="https://www.instagram.com/antiquemarbleworld/" class="fa fa-instagram"></a>
+                                    <a href="https://www.pinterest.com/antiquemarbleworld/" class="fa fa-pinterest"></a>
+                                   <a href="https://www.tumblr.com/blog/antiquemarbleworld" class="fa fa-tumblr"></a>
                                 </div>
                             </div>
                             <div class="box">
@@ -633,47 +723,55 @@
                 </div>
             </section>
             <section class="footer" id="contact">
-                <div class="box-container">
-                    <div class="box">
-                       
-                        <h3><span>AMW</span> </h3>
-                      
-                        <div class="share">
-                            <a href="https://www.facebook.com/profile.php?id=100088377671199" class="fa fa-facebook"></a>
-                            <a href="https://twitter.com/AntiqueMarble" class="fa fa-twitter"></a>
-                           <a href="https://www.linkedin.com/in/antique-marble-world-921611259/" class="fa fa-linkedin"></a>
-                            
-                            <a href="https://www.instagram.com/antiquemarbleworld/" class="fa fa-instagram"></a>
-                            <a href="https://www.pinterest.com/antiquemarbleworld/" class="fa fa-pinterest"></a>
-                           <a href="https://www.tumblr.com/blog/antiquemarbleworld" class="fa fa-tumblr"></a>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h3>Contact Info </h3>
-                        
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+919636757008</a>
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+919950204444</a>
-                        <a href="#" class="links"><i class="fa fa-phone"></i>+917665526555</a>
-                        <a href="#" class="links"><i class="fa fa-map-marker"></i>Kishangarh,Rajasthan</a>
-                    </div>
-                   
-                    <div class="box">
-                        <h3>Quick Links</h3>
-                       
-                        <a href="index.html#home" class="links"><i class="fa fa-arrows-h"></i>Home</a>
-                        <a href="index.html#aboutus" class="links"><i class="fa fa-arrows-h"></i>About Us</a>
-                        <a href="index.html#product" class="links"><i class="fa fa-arrows-h"></i>Product</a>
-                        <a href="index.html#contact" class="links"><i class="fa fa-arrows-h"></i>Contact</a>
-                        <a href="index.html#review" class="links"><i class="fa fa-arrows-h"></i>Reviews</a>
-                    </div>
-                    <div class="box">
-                       
+             <div class="box-container">
+                 <div class="box">
                     
-                    <img src="images/indiamart.png" alt="" class="quality">
+                     <h3><span>AMW</span> </h3>
                    
-                    </div>
-                </div>
-            </section>
+                     <div class="share">
+                         <a href="https://www.facebook.com/profile.php?id=100088377671199" class="fa fa-facebook"></a>
+                         <a href="https://twitter.com/AntiqueMarble" class="fa fa-twitter"></a>
+                        <a href="https://www.linkedin.com/in/antique-marble-world-921611259/" class="fa fa-linkedin"></a>
+                         
+                         <a href="https://www.instagram.com/antiquemarbleworld/" class="fa fa-instagram"></a>
+                         <a href="https://www.pinterest.com/antiquemarbleworld/" class="fa fa-pinterest"></a>
+                        <a href="https://www.tumblr.com/blog/antiquemarbleworld" class="fa fa-tumblr"></a>
+                     </div>
+                     <img src="images/indiamart.png" alt="" class="quality">
+                 </div>
+                 <div class="box">
+                     <h3>Contact Info </h3>
+                     
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+919636757008</a>
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+919950204444</a>
+                     <a href="#" class="links"><i class="fa fa-phone"></i>+917665526555</a>
+                     <a href="#" class="links"><i class="fa fa-map-marker"></i>Kishangarh,Rajasthan</a>
+                 </div>
+                
+                 <div class="box">
+                     <h3>Quick Links</h3>
+                    
+                     <a href="index.html#home" class="links"><i class="fa fa-arrows-h"></i>Home</a>
+                     <a href="index.html#aboutus" class="links"><i class="fa fa-arrows-h"></i>About Us</a>
+                     <a href="index.html#product" class="links"><i class="fa fa-arrows-h"></i>Product</a>
+                     <a href="index.html#contact" class="links"><i class="fa fa-arrows-h"></i>Contact</a>
+                     <a href="index.html#review" class="links"><i class="fa fa-arrows-h"></i>Reviews</a>
+                 </div>
+                 <div class="box">
+                     <h3>Our Products</h3>
+                    
+                     <a href="italicmarble.html#italicmarble" class="links"><i class="fa fa-arrows-h"></i>Italian Marble</a>
+                     <a href="indianmarble.html#indianmarble" class="links"><i class="fa fa-arrows-h"></i>Indian Marble</a>
+                     <a href="importedmarble.html#importedmarble" class="links"><i class="fa fa-arrows-h"></i>Imported Marble</a>
+                     <a href="product.html#granite" class="links"><i class="fa fa-arrows-h"></i>Granite</a>
+                     <a href="tabletops.html#tabletop" class="links"><i class="fa fa-arrows-h"></i>Epoxy Tabletops</a>
+                     <a href="stone.html#stone" class="links"><i class="fa fa-arrows-h"></i>Ibizia Tech Stone</a>
+                     <a href="tile.html#tile" class="links"><i class="fa fa-arrows-h"></i>Tiles</a>
+                   
+                 </div>
+                 
+             </div>
+         </section>
          
             <script src="js/script.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> 
@@ -681,24 +779,8 @@
 
     
 
-            <script>
-                function gotowhatsapp() {
-            
-                    var name = document.getElementById("formname").value;
-                    var comment = document.getElementById("message").value;
-                    var  contactnumber= document.getElementById("contactnumber").value;
-                    var email = document.getElementById("email").value;
-                   
-            
-                    var url = "https://wa.me/917976029457?text="
-                        + "Name: " + formname + "%0a"
-                        + "Message: " + message + "%0a"
-                        + "Email: " + email + "%0a"
-                        + "Contact Number: " + contactnumber + "%0a"
-            
-                    window.open(url, '_blank').focus();
-                };
-               
+            <script src="https://smtpjs.com/v3/smtp.js">
+
             </script>
     
 </body>
