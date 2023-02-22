@@ -66,6 +66,7 @@ function myFunction() {
       moreText.style.display = "inline";
     }
   };
+
 let contact=document.querySelector('.contact');
 
 document.querySelector('#chat').onclick=() =>{
