@@ -144,7 +144,7 @@ var swiper = new Swiper(".blogs-slider"  ,{
     loop:true,
     spaceBetween:20,
     autoplay:{
-        delay:2500,
+        delay:3000,
         disableOnInteraction:false,
 
     },
