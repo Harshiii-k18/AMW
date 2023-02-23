@@ -26,11 +26,12 @@ html{
    
 }
 body{
-    background: #d4d4d4;
+    background: #7d7c7c;
     
 }
 section{
     padding: 2rem 9%;
+   
 }
 .heading{
     text-align: center;
@@ -75,17 +76,10 @@ section{
     background:url(../images/vivo\ stone.jpg);
     box-shadow: var(--box-shadow);
 }
-.header .logo h1{
-    font-size: 2rem;
-  
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    
-}
+
 .header .logo .logoimage{
     width: 22vh;
-    height: 15vh;
+    height: 20vh;
     border-radius: .8rem;
     
 }
@@ -208,6 +202,7 @@ text-align: center;
     padding-bottom: 20rem;
 }
 .home .content{
+    margin-top: 5rem;
     text-align: center;
     width: 60rem;
 }
@@ -222,6 +217,20 @@ text-align: center;
     line-height: 1.8;
    
 }
+.home .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+
+  }
+  .home .box-container .box{
+    padding: 1.8rem 1rem;
+    background: #fff;
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+  }
 
 
 .home .content .btn{
@@ -239,11 +248,15 @@ text-align: center;
     background: var(--peach) ;
     color: #fff;
  }
+.product{
+    margin-top: -6rem;
+}
 
   .product .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 1.5rem;
+    
 
   }
   .product .box-container .box{
@@ -273,6 +286,9 @@ text-align: center;
     color: var(--light-color);
     padding: 1rem 0;
   }
+  .allproduct{
+    margin-top: -6rem;
+}
   .allproduct .product-slider{
     padding: 1rem;
     display: grid;
@@ -319,6 +335,9 @@ text-align: center;
     color:var(--peach);
     padding: .5rem 0;
 }
+.review{
+    margin-top: -8rem;
+}
 .review .review-slider{
     padding: 1rem;
 }
@@ -362,7 +381,10 @@ text-align: center;
     font-size: 1.7em;
 }
 .footer{
-    background: #fff;
+    background:url(../images/vivo\ stone.jpg);
+  
+       
+    
 }
 .footer .box-container{
     display: grid;
@@ -380,6 +402,7 @@ text-align: center;
     display: inline-block;
     padding: 1rem 3rem;
     clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+   
    }
 .footer .box-container .box h3 i{
     color: var(--peach);
@@ -434,6 +457,10 @@ text-align: center;
 }
 .footer .box-container .box img{
     margin-top: 2rem;
+    border-radius: 7rem;
+}
+.aboutus{
+    margin-top: -12rem;
 }
 .aboutus .box-container{
     display: grid;
@@ -805,6 +832,80 @@ cursor: pointer;
 
 }
 #more {display: none;}
+.bloghome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/blog.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 25rem;
+    padding-bottom: 17rem;
+}
+
+.blogs h1{
+color: #eee;
+font-size: 1.7rem;
+}
+
+  .blogs .blogs-slider{
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  .blogbtn{
+   
+    border: .2rem solid  ;
+    color: white;
+    cursor: pointer;
+    background:  var(--light-color);
+   align-items: end;
+  
+   
+   padding: .1rem 1rem;
+   font-size: 1.2rem;
+   margin-left: 22rem;
+  }
+  
+ 
+  .blogs .blogs-slider:first-child{
+    margin-bottom: 2rem;
+    
+    
+  }
+  .blogs .blogs-slider .box{
+    background: #fff;
+   
+    text-align: center;
+    padding: .5rem .5rem;
+    
+    transition: transform .2s;
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+    }
+
+  .blogs .blogs-slider .box:hover{
+    transform: scale(1.1);
+    }
+
+   .blogs .blogs-slider .box img{
+        height: 20rem;
+       
+}
+.blogs .blogs-slider .box h3{
+    font-size: 1rem;
+    color: black;
+}
+.blogs .blogs-slider .box p{
+    font-size: 1rem;
+    color:var(--light-color);
+    padding: .5rem 0;
+}
+
+
+
 
 
 

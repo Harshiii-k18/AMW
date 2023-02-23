@@ -140,4 +140,31 @@ var swiper = new Swiper(".review-slider"  ,{
     },
 
 });
+var swiper = new Swiper(".blogs-slider"  ,{
+    loop:true,
+    spaceBetween:20,
+    autoplay:{
+        delay:2500,
+        disableOnInteraction:false,
+
+    },
+    centeredSlides:true,
+    breakpoints:{
+        0:{
+            slidesPerView:1,
+            
+
+        },
+        768:{
+            slidesPerView:2,
+           
+        },
+        1020:{
+            slidesPerView:3,
+          
+
+        },
+    },
+
+});
 
